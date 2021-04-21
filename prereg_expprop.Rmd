@@ -1,0 +1,26 @@
+---
+title: "Expropriation Firm Survey Pre-registration"
+author: "Robert Kubinec, Haillie Na-Kyung Lee and Andrey Tomashevskiy"
+date: "April 17, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,warning=FALSE,message=FALSE)
+
+require(readr)
+require(dplyr)
+require(ggplot2)
+require(forcats)
+require(tidyr)
+require(lubridate)
+
+```
+
+## Overview
+
+Our intention is to conduct a survey of firm employees and managers in Venezuela, Egypt and Ukraine to study the reasons why firms tend to be targeted for expropriation by government authorities. While there is a large literature on states as stationary bandits that prey on firms for revenue, there is relatively little empirical evidence in developing countries that describes what factors tend to make companies the targets for expropriation. Much of existing theory argues that firm political connections should make firms relatively resistant to expropriation, but there is also research showing that firms with political connections can become targets for expropriation in the case of regime change or leadership turnover. Furthermore, it is still an open question as to whether governments would want to target more profitable firms for expropriation, as the stationary bandit logic might suggest, or target firms without political connections. In other words, if we assume that the sovereign is relatively unaccountable and property rights are weak, will the ruler follow a *revenue*-maximization strategy or a *coalition*-maximization strategy?
+
+The former strategy which is best promulgated in the works of @levi1989 and 
